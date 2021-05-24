@@ -23,7 +23,7 @@
     <title>LADO-B FUT</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light" style ="background-color:#F08E02">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">LADO-B FUT</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,8 +34,13 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Feitos históricos</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Feitos históricos</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Leicester PL - 2016</a></li>
+                  <li><a class="dropdown-item" href="#">Porto UCL - 2004</a></li>
+                  <li><a class="dropdown-item" href="#">Once Caldas Libertadores - 2004</a></li>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -44,17 +49,21 @@
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Sergio Busquets</a></li>
                   <li><a class="dropdown-item" href="#">Allan Shearer</a></li>
-                  <!-- <li><hr class="dropdown-divider"></li> -->
                   <li><a class="dropdown-item" href="#">Di Natale</a></li>
                 </ul>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Recordes</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Recordes</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">100 Gols - Rogério Ceni</a></li>
+                  <li><a class="dropdown-item" href="#">1000 partidas - Ryan Giggs</a></li>
+                  <li><a class="dropdown-item" href="#">1000 Gols - Romário</a></li>
+                </ul>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Pesquisar</button>
             </form>
           </div>
         
@@ -67,6 +76,8 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -77,6 +88,12 @@
           </div>
           <div class="carousel-item">
             <img src="https://i.ytimg.com/vi/CuIsZQ_I6Lo/maxresdefault.jpg" class="d-block w-100" alt="...">
+          </div>
+           <div class="carousel-item">
+            <img src="https://i.ytimg.com/vi/2jqLlCZUCYU/maxresdefault.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.pinimg.com/originals/d5/5e/fb/d55efbf3ca1c71065953cadaba3a3f8c.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -94,7 +111,15 @@
   <div class="jumbotron jumbotron-fluid bg-info">
     <div class="container">
       <h1 class="display-4">LADO-B FUT</h1>
-      <p class="lead">A Finalidade desse site é dar enfâse a carreira de jogadores que foram brilhantes durante suas exibições pelo mundo futebolísco, quais se destacaram por um clube pequeno, atuaram por um país sem muita tradição em competições tradicionais ou simplesmente por terem jogado em uma época onde teve jogadores fenomenais com um poder midiático extremo. Muito desses atletas tiveram o potencial ao ponto de mudar a visibilidade de uma nação ou equipe, fazendo seus adversários se alertarem para confrontos futuros e terem uma dedicação maior aos estudos para tentar vence-los. Jogadores invisíveis, que são aqueles que possuem um papel determinante para o funcionamento do time e não são muito mencionados durante as transmissões, serão ressaltados também nesse projeto, pois eles são essenciais para deixar um time consistente e competitivo.</p>
+      <p class="lead">A Finalidade desse site é dar enfâse a carreira de jogadores que foram brilhantes
+         durante suas exibições pelo mundo futebolísco, quais se destacaram por um clube pequeno, atuaram 
+         por um país sem muita tradição em competições tradicionais ou simplesmente por terem jogado em uma
+        época onde teve jogadores fenomenais com um poder midiático extremo. Muito desses atletas tiveram o
+         potencial ao ponto de mudar a visibilidade de uma nação ou equipe, fazendo seus adversários se 
+         alertarem para confrontos futuros e terem uma dedicação maior aos estudos para tentar vence-los.
+          Jogadores invisíveis, que são aqueles que possuem um papel determinante para o funcionamento do 
+          time e não são muito mencionados durante as transmissões, serão ressaltados também nesse projeto,
+           pois eles são essenciais para deixar um time consistente e competitivo.</p>
     </div>
   </div>
   <!--/Jumbotron-->
@@ -174,21 +199,22 @@
     <!-- Texto e vídeo -->
         <div class="row mt-5 mb-5">
             <div class="col-md-6">
-                <h3>Texto teste</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, 
-                    adipisicing elit. Quasi enim reprehenderit aliquam rerum, 
-                    officiis ut doloribus. Excepturi quaerat dignissimos,
-                     dolore veritatis asperiores officia suscipit voluptates nulla!
-                      Laudantium nostrum temporibus nemo.</p>
+                <h3>Coadjuvantes de luxo!</h3>
+                <div>
+                <p>Poucas equipes campeãs foram formadas por um elenco todo midiático. Simplesmente o uníco time que eu consiga
+                  pensar no momento é do Brasil de 70, onde do meio-campo para frente era composto só de camisas 10 dos seus clubes.
+                  Atualmente, tivemos a França Campeã do Mundo de 2018, que teve os balados Pogba e Griezmann, mas também contou com 
+                a autoridade e disposição de Kante e Matuidi, que não possuem uma técnica tão apurada quanto aos supratidas, mas com certeza
+              foram a espinha dorsal da equipe e fundamentais para o segundo título mundial dos franceses</p>
 
-                      <p>Lorem ipsum dolor sit amet consectetur, 
-                        adipisicing elit. Quasi enim reprehenderit aliquam rerum, 
-                        officiis ut doloribus. Excepturi quaerat dignissimos,
-                         dolore veritatis asperiores officia suscipit voluptates nulla!
-                          Laudantium nostrum temporibus nemo.</p>
+                      <p>Como não lembrar da Copa de 1994 também né? Aquele mesmo que falam que o Romário ganhou sozinho.
+                        Mas eis a questão, Romário armava o jogo para ele mesmo fazer os gols? Catou algum penalti na disputa
+                        contra a itália? Enfim... Jogadores como Mauro Silva, Dunga, Aldair, Bebeto e outros jogadores que formaram aquela
+                        equipe também fizeram uma ótima copa, ao ponto de ganhar o título e tirar os holofes das favoritas Alemanha, Holanda e Itália.</p>
+                </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 mt-5">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/62bTwHOp-mc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
@@ -209,17 +235,21 @@
         <div class="col-md-6">
           <form>
             <div class="form-group">
+              <label for="exampleFormControlInput1">Digite seu nome</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1">
+            </div>
+            <div class="form-group">
               <label for="exampleFormControlInput1">Endereço de email</label>
               <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
             </div>
            
             <div class="form-group">
-              <label for="exampleFormControlTextarea1">Exemplo de textarea</label>
+              <label for="exampleFormControlTextarea1">Texto</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
             </div>
   
             <div class="form-group d-flex justify-content-end">
-              <button class="btn btn-outline-success">Enviar</button>
+              <button class="btn btn-outline-success mt-2">Enviar</button>
             </div>
           </form>
         </div>
